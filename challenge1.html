@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style1.css">
+  </head>
+  <body>
+    <div class="containment">
+      <form action="">
+        <div class="img"></div>
+        <u><h1>Get in touch with us</h1></u>
+        <u class="seek"><h2>Please fill the required prompts to submit your query</h2></u>
+        <p>
+          Your Name:
+          <input
+            type="text"
+            required
+            name="name"
+            placeholder="First Name"
+          /><input type="text" required name="name" placeholder="Last Name" />
+        </p>
+        <p>
+          Your Email:
+          <input
+            type="text"
+            required
+            name="email"
+            placeholder="abcdefghi123@gmail.com"
+            id="email"
+          />
+        </p>
+        <p>
+          Phone:<input
+            type="number"
+            required
+            name="number"
+            id="number"
+            placeholder="10 digits number including country code"
+          />
+        </p>
+        <p>
+            Subject:
+            <select name="subject" id="subject" required>
+                <option value="">--Select subject--</option>
+                <option value="">Personal related</option>
+                <option value="">Bussiness related</option>
+                <option value="">Clients reviews</option>
+                <option value="">Demo</option>
+            </select>
+        </p>
+        <p>
+          Ask here:
+          <textarea
+            name="ask"
+            id="ask"
+            cols="100"
+            rows="10"
+            placeholder="Enter your queries here"
+          ></textarea>
+        </p>
+        
+        <input type="submit" value="Send"/>
+      <u><p class="about">*Any query mentioned above can be resolved in more than 3 to 5 working days. Clients are requeseted to have patience.
+        If it is urgent, kindly call on the phone number given in the botom right.
+      </p></u>
+      <u><u><p class="Thanking">"Thank You for visiting"</p></u></u>
+      <p class="number">Contact here: +915678345674</p>
+      </form>
+    </div>
+  </body>
+</html>

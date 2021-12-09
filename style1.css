@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+h1,h2{
+
+    width: 50%;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 15px 30px;
+    font-size: 18px;
+    padding: 6px;
+}
+.seek{
+    font-weight: bolder;
+    color: darkred;
+}
+
+.containment{
+ 
+    background-image: url(img/blur-background-og.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    height: 1200px;
+    width: 1200px;
+    /* background-color: rgb(204, 232, 250); */
+    padding: 5px 20px 15px 20px;
+    border: 1px solid darkgoldenrod;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select{
+    width: 40%;
+    padding: 12px;
+    border: 1px solid lightcoral;
+    border-radius: 5px;
+    margin: 10px;
+}
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid lightcoral;
+    border-radius: 5px;
+    margin: 10px;
+}
+fieldset{
+    background-color: rgb(215, 243, 215);
+    border: 1px solid darkgreen;
+}
+.main_heading{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+input[type="submit"]{
+    background-color: rgb(155, 52, 67);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    width: 30%;
+}
+input[type="submit"]:hover{
+    background-color: rgb(117, 209, 88);
+}
+.about{
+    font-size: 20px;
+    text-decoration: maroon;
+    text-shadow: maroon;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: right;
+    color: darkred;
+}
+.Thanking{
+    /* background-color: rgb(231, 203, 131); */
+    
+    /* border:1px solid red; */
+    padding-top: 5px;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: rgba(0, 100, 58, 0.822);
+    text-shadow: darkred;
+}
+.number{
+    padding-top: 7px;
+    font-size: 40px;
+    text-align: right;
+    /* border: 2px solid coral;
+    
+    background-color: cornsilk; */
+}
